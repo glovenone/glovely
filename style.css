@@ -1,0 +1,270 @@
+/*  
+
+Theme Name: Glovely
+
+Theme URI: http://www.pureweber.com
+
+Description: 本主题是<a href="http://www.pureweber.com">纯粹互联网--PureWeber</a>主题项目中的一部分。.
+
+Version: 1.0
+
+Author: Glove
+
+Author URI: http://www.glovely.com/
+
+*/
+*{
+	margin:0;
+	padding:0;
+}
+
+body {
+	font-family:Arial, Helvetica, Georgia, Sans-serif;
+	font-size:12px;
+	text-align:center;
+	vertical-align:top;	
+	background:#FFEEFF url(images/10.jpg) no-repeat;				
+	
+}
+
+
+h1{
+	font-family:Georgia, Sans-serif;
+	font-size:24px;
+	padding:0 0 10px 0;
+}
+
+a:link, a:visited {
+	text-decoration: none;	
+	color: #336699;	
+}
+
+a:hover {
+	text-decoration:underline;
+/*	color:#ff0000;	*/
+}
+
+#menuCaption{
+	float:right;
+	margin:30px 100px 30px 10px;
+	font-size:30px;
+}
+
+#menuLists{
+	font-size:15px;
+	
+}
+
+#wrapper{
+	margin:0 250px 0 auto;
+	width: 750px;
+	text-align:left;
+	
+}
+
+#header{
+	float: left;	
+	margin-left:250px;
+	width: 750px;
+	height:100px;
+/*	background:url("images/2.jpg");		*/
+}
+
+#header  h1{
+		text-align:center;
+}
+
+#title_2{
+		text-align:right;
+		padding-right:50px;
+}
+
+
+
+/*	鍘婚櫎閾炬帴鐨刡order*/
+a img{
+	border:0;
+}
+#menuCaption{
+	margin-right: 20px 50 auto 30px;
+
+}
+
+#container{
+	margin:0 auto 0 auto;
+	float:left;
+	width:500px;
+/*	background:#000000;
+/*	filter:alpha(opacity=80);            /* 鐢ㄤ簬IE娴忚鍣紞閫忔槑搴︿负20%*/
+/*	-moz-opacity:0.8;                    /*  鐢ㄤ簬Moz + Firefox锛嶉€忔槑搴︿负20%*/
+/*	opacity: 0.8;                        /* 鐢ㄤ簬鏀寔CSS3鐨勬祻瑙堝櫒锛嶉€忔槑搴︿负20%*/
+
+}
+
+.post h2{
+	padding-top: 10px;
+	font-family:Georgia, Sans-serif;
+	font-size: 18px;
+	
+}
+
+.entry{
+	line-height:18px;
+}
+
+
+p.postmetadata{
+/*	border-top:10px solid #ff0000;	*/
+	margin:5px 0 25px 0;
+}
+
+
+.navigation{
+	padding:10px 0 0 0;
+	font-size:14px;
+	font-weight:bold;
+	line-height:18px;
+}
+
+.sidebar {
+	float:left;
+	width:240px;
+/*	background:#000000;
+/*	filter:alpha(opacity=70);            /* 鐢ㄤ簬IE娴忚鍣紞閫忔槑搴︿负20%*/
+/*	-moz-opacity:0.7;                    /*  鐢ㄤ簬Moz + Firefox锛嶉€忔槑搴︿负20%*/
+/*	opacity: 0.7;                        /* 鐢ㄤ簬鏀寔CSS3鐨勬祻瑙堝櫒锛嶉€忔槑搴︿负20%*/
+	margin: 0 0 0 10px;
+	display:inline;
+}
+
+.sidebar ul{
+	list-style-type:none;
+	padding:0 10px 0 20px;
+}
+
+.sidebar ul li{
+	padding:10px 0 10px 0;
+}
+
+.sidebar ul li h2{
+	font-family:Georgia, Sans-serif;
+	font-size:14px;
+}
+
+.sidebar ul ul li{
+	padding: 0;
+	line-height:24px;
+}
+
+#block_links li {
+	background:transparent none repeat scroll 0 50%;
+	float:left;
+	padding-left:0;
+	width:43%;
+	} 
+
+#meta{
+	float:left;
+}
+	
+table#wp-calendar{
+	width:100%;
+}
+
+#footer{
+	clear:both;
+	float:left;
+	width:750px;
+	padding:35px 0 15px 250px;
+	text-align:center;
+
+}
+#footer p{
+	padding-top:12px;
+	line-height:18px;
+	
+}
+
+#footer span{
+		color:#009193;
+}
+.comments-template{
+	margin: 10px 0 0;
+/*	border-top: 1px solid #ff0000;		*/
+	padding: 10px 0 0;
+}
+
+.comments-template ol{
+	margin: 0;
+	padding: 0 0 15px;
+	list-style: none;
+}
+
+.comments-template ol li{
+	margin: 10px 0 0;
+	line-height: 18px;
+	padding: 0 0 10px;
+	border-bottom: 1px solid #ff0000;
+}
+
+
+
+.comments-template h2, .comments-template h3{
+	font-family: Georgia, Sans-serif;
+	font-size: 16px;
+}
+
+
+.commentmetadata{
+	font-size: 12px;
+}
+
+
+
+.comments-template p.nocomments{
+	padding: 0;
+}
+
+
+
+.comments-template textarea{
+	font-family: Arial, Helvetica, Georgia, Sans-serif;
+	font-size: 12px;
+}
+
+
+
+#nav {
+	margin-top: 10px;
+	padding-top:10px; 
+    height: 30px;
+    width: 100%;
+	background:#000000;
+	filter:alpha(opacity=50);            /* 鐢ㄤ簬IE娴忚鍣紞閫忔槑搴︿负20%*/
+	-moz-opacity:0.5;                    /*  鐢ㄤ簬Moz + Firefox锛嶉€忔槑搴︿负20%*/
+	opacity: 0.5;                        /* 鐢ㄤ簬鏀寔CSS3鐨勬祻瑙堝櫒锛嶉€忔槑搴︿负20%*/
+
+}
+#nav ul {
+    margin: 0 0 0 30px;
+    padding: 0px;
+    font-size: 12px;
+    color: #FFF;
+    line-height: 30px;
+    white-space: nowrap;
+}
+#nav li {
+    list-style-type: none;
+    display: inline;
+}
+#nav li a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 7px 10px;
+    color: #FFF;
+	
+}
+#nav li a:hover {
+    color: #ff0;
+	/*	background-color: #00ff00;	*/
+}
